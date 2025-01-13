@@ -1,0 +1,26 @@
+[dependencies]
+[package]
+authors = [
+  "siwilizhao <siwilizhao@gmail.com>",
+] 
+categories = [
+  "text-processing",
+  "multimedia",
+  "parser-implementations",
+] 
+description = "iu is an upcoming feature library" 
+documentation = "https://docs.rs/iu" 
+edition = "2021" 
+keywords = ["iu", "mankong", "siwi"] 
+license = "Apache-2.0" 
+name = "iu" 
+publish = true # no accidents while in dev
+readme = "README.md" 
+repository = "https://github.com/i-rs/iu" 
+version = "0.0.5" 
+
+include = [
+  "Cargo.toml",
+  "LICENSE",
+  "src/**/*", #"build.rs",
+]
